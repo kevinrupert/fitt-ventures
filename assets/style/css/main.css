@@ -139,10 +139,6 @@ p {
 
 a {
   text-decoration: none;
-  color: #a8a8a8;
-  transition: color 0.2s ease;
-}
-a:hover {
   color: #ffffff;
 }
 
@@ -208,9 +204,6 @@ a:hover {
   .page-container .about-container .about .headline a .link-icon {
     width: 32px;
   }
-}
-.page-container .about-container .about .headline a:hover {
-  color: white;
 }
 .page-container .about-container .about .headline a:hover .link-icon {
   transform: translate(4px, -4px);

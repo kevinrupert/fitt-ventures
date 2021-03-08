@@ -132,11 +132,7 @@ p {
 
 a {
   text-decoration: none;
-  color: $gray;
-  transition: color 0.2s ease;
-  &:hover {
-    color: $white;
-  }
+  color: $white;
 }
 
 .page-container {
@@ -190,7 +186,6 @@ a {
             }
           }
           &:hover {
-            color: white;
             .link-icon {
               transform: translate(4px, -4px);
             }
