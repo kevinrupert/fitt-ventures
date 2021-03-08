@@ -196,7 +196,7 @@ a:hover {
 .page-container .about-container .about .headline a .link-icon {
   margin-left: 4px;
   width: 20px;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
 }
 @media (min-width: 700px) {
   .page-container .about-container .about .headline a .link-icon {
@@ -213,7 +213,7 @@ a:hover {
   color: white;
 }
 .page-container .about-container .about .headline a:hover .link-icon {
-  transform: translate(3px, -3px);
+  transform: translate(4px, -4px);
 }
 .page-container footer {
   height: 64px;
